@@ -12,6 +12,7 @@
 		FF3957E22208B8B300A87653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3957E02208B8B300A87653 /* Main.storyboard */; };
 		FF3957E42208B8B400A87653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3957E32208B8B400A87653 /* Assets.xcassets */; };
 		FF3957E72208B8B400A87653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3957E52208B8B400A87653 /* LaunchScreen.storyboard */; };
+		FF3957EF2208B94500A87653 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3957EE2208B94500A87653 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FF3957E32208B8B400A87653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3957E62208B8B400A87653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF3957E82208B8B400A87653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3957EE2208B94500A87653 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FF3957DC2208B8B300A87653 /* AppDelegate.swift */,
 				FF3957DE2208B8B300A87653 /* ViewController.swift */,
+				FF3957EE2208B94500A87653 /* NetworkController.swift */,
 				FF3957E02208B8B300A87653 /* Main.storyboard */,
 				FF3957E32208B8B400A87653 /* Assets.xcassets */,
 				FF3957E52208B8B400A87653 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				FF3957DF2208B8B300A87653 /* ViewController.swift in Sources */,
 				FF3957DD2208B8B300A87653 /* AppDelegate.swift in Sources */,
+				FF3957EF2208B94500A87653 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGW94SZ7K3;
 				INFOPLIST_FILE = ImageUpload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGW94SZ7K3;
 				INFOPLIST_FILE = ImageUpload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
