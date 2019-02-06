@@ -12,8 +12,10 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please allow access to your camera.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>use Photo Library</string>
+	<string>Please allow access to photo library .</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

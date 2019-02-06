@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF332599220B2213006DFFC8 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF332598220B2213006DFFC8 /* PermissionManager.swift */; };
 		FF3957DD2208B8B300A87653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3957DC2208B8B300A87653 /* AppDelegate.swift */; };
 		FF3957DF2208B8B300A87653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3957DE2208B8B300A87653 /* ViewController.swift */; };
 		FF3957E22208B8B300A87653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3957E02208B8B300A87653 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF332598220B2213006DFFC8 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
 		FF3957D92208B8B300A87653 /* ImageUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3957DC2208B8B300A87653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF3957DE2208B8B300A87653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FF3957DC2208B8B300A87653 /* AppDelegate.swift */,
 				FF3957DE2208B8B300A87653 /* ViewController.swift */,
 				FF3957EE2208B94500A87653 /* NetworkController.swift */,
+				FF332598220B2213006DFFC8 /* PermissionManager.swift */,
 				FF3957E02208B8B300A87653 /* Main.storyboard */,
 				FF3957E32208B8B400A87653 /* Assets.xcassets */,
 				FF3957E52208B8B400A87653 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				FF3957DF2208B8B300A87653 /* ViewController.swift in Sources */,
 				FF3957DD2208B8B300A87653 /* AppDelegate.swift in Sources */,
+				FF332599220B2213006DFFC8 /* PermissionManager.swift in Sources */,
 				FF3957EF2208B94500A87653 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
